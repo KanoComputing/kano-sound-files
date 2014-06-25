@@ -16,7 +16,7 @@ for root, dirs, filenames in os.walk('.'):
 
         print path, basename, ext
 
-        sox_cmd = "sox {} -b 16 {}_new.wav remix -".format(path, basename)
+        sox_cmd = "sox {} -b 16 -r 48k {}_new.wav remix -".format(path, basename)
         os.system(sox_cmd)
         os.remove(path)
         os.rename('{}_new.wav'.format(basename), '{}.wav'.format(basename))
