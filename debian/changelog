@@ -1,3 +1,9 @@
+kano-sound-files (3.12.1-0) unstable; urgency=low
+
+  * Tuned the sounds for CKC v1 speaker
+
+ -- Team Kano <dev@kano.me>  Fri, 22 Sep 2017 21:50:21 +0100
+
 kano-sound-files (1.1-1) unstable; urgency=low
 
   * Initial packaging
